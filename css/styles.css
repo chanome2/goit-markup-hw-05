@@ -706,6 +706,6 @@ img {
 
 /* start of hw5 section 4 */
 
-.socmed-icon-list {
+.socmed-link {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
