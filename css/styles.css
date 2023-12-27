@@ -693,3 +693,11 @@ img {
 .contact-color {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+/* end of hw5 header */
+
+/* start of hw5 section 1 */
+
+.hero-btn {
+  background-color: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
