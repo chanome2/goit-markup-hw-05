@@ -24,7 +24,6 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  
 }
 
 .link {
@@ -44,7 +43,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
-
 }
 
 .link-style:hover {
@@ -115,6 +113,7 @@ body {
 .btn {
   cursor: pointer;
 }
+
 /* end of section 1 classes */
 
 /* start of section 2 classes */
@@ -135,6 +134,7 @@ body {
   font-size: 16px;
   text-align: left;
 }
+
 /* end of section 2 classes */
 
 /* start of section 3 classes */
@@ -167,6 +167,7 @@ body {
 .section-four-list {
   background-color: #ffffff;
 }
+
 /* end of section 4 classes */
 
 /* start of footer */
@@ -197,10 +198,6 @@ body {
   letter-spacing: 0.04em;
   color: #4d5ae5;
   background-color: #f4f4fd;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-      background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-      border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-      box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-btn:hover {
@@ -267,6 +264,7 @@ img {
   padding: 24px 0 24px;
   gap: 40px;
 }
+
 /* end of header positioning */
 
 /* start of section 1 positioning */
@@ -473,10 +471,8 @@ img {
 /* start of hw4 1st section */
 
 .section-title {
-  background-image: linear-gradient(
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)),
     url(../images/HERO-IMAGE.jpg);
   max-width: 1440px, 1440px;
   background-repeat: no-repeat, no-repeat;
@@ -664,20 +660,16 @@ img {
 
 .link {
   display: block;
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  
 }
 
-.link:hover  {
+.link:hover {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-  
 }
 
-.link:focus  {
+.link:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-  
 }
 
 /* end of hw4 portfolio */
