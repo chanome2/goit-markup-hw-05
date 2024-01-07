@@ -669,7 +669,7 @@ img {
 }
 
 <<<<<<< HEAD
-.link.portfolio-link:hover  {
+.link:hover  {
 =======
 .link:hover .portfolio-description {
 >>>>>>> parent of ed91ba6 (test)
@@ -679,7 +679,7 @@ img {
 }
 
 <<<<<<< HEAD
-.link.portfolio-link:focus  {
+.link:focus  {
 =======
 .link:focus .portfolio-description {
 >>>>>>> parent of ed91ba6 (test)
