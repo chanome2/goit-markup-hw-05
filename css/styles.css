@@ -808,14 +808,22 @@ img {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio-link:focus ~ .portfolio-paragraph-hw5,
-.portfolio-link:hover ~ .portfolio-paragraph-hw5 {
+/* .portfolio-link:focus .portfolio-paragraph-hw5,
+.portfolio-link:hover .portfolio-paragraph-hw5 {
   transform: translateY(0%);
-}
+} */
 
 /* .portfolio-link:hover ~ .portfolio-paragraph-hw5 {
   transform: translateY(0%);
 } */
+
+.portfolio-link:hover .portfolio-paragraph-hwfive {
+  transform: translateY(0%);
+}
+
+.portfolio-link:focus .portfolio-paragraph-hwfive {
+  transform: translateY(0%);
+}
 
 .card-container {
   position: relative;
