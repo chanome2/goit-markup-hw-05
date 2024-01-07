@@ -668,16 +668,24 @@ img {
   
 }
 
+<<<<<<< HEAD
 .link.portfolio-link:hover  {
+=======
+.link:hover .portfolio-description {
+>>>>>>> parent of ed91ba6 (test)
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
- 
+  transform: translateY(0%);
 }
 
+<<<<<<< HEAD
 .link.portfolio-link:focus  {
+=======
+.link:focus .portfolio-description {
+>>>>>>> parent of ed91ba6 (test)
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-  
+  transform: translateY(0%);
 }
 
 /* end of hw4 portfolio */
@@ -805,6 +813,7 @@ img {
 /* end of hw5 modal */
 
 /* start of hw5 portfolio header*/
+<<<<<<< HEAD
 
 .portfolio-link:hover,
 .portfolio-link:focus {
@@ -830,3 +839,5 @@ img {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   
 }
+=======
+>>>>>>> parent of ed91ba6 (test)
