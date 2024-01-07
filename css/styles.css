@@ -806,8 +806,8 @@ img {
 
 /* start of hw5 portfolio header*/
 
-.portfolio-second-list.link:hover,
-.portfolio-second-list.link:focus {
+.portfolio-second-list.portfolio-link:hover,
+.portfolio-second-list.portfolio-link:focus {
 
   transform: translateY(0%);
 }
