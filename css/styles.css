@@ -768,7 +768,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgba(46, 47, 66, 0.4);
+  background-color: #e7e9fc;
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 0;
   cursor: pointer;
