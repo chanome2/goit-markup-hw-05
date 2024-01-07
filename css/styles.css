@@ -668,16 +668,16 @@ img {
   
 }
 
-.link:hover .portfolio-description {
+.link:hover  {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-  transform: translateY(0%);
+ 
 }
 
-.link:focus .portfolio-description {
+.link:focus  {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-  transform: translateY(0%);
+  
 }
 
 /* end of hw4 portfolio */
@@ -805,3 +805,9 @@ img {
 /* end of hw5 modal */
 
 /* start of hw5 portfolio header*/
+
+.portfolio-second-list.link:hover .portfolio-description,
+.portfolio-second-list.link:focus .portfolio-description{
+
+  transform: translateY(0%);
+}
